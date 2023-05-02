@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta metacharset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+
+<body>
+  <header class="header">
+    <h1><img src="img/Logo-1.png"/></h1>
+  </header>
+
+  <section class="banner"></section>
+  <nav class="wrap">
+    <ul class="nav">
+      <li><button class="btn btn-front" href="#" id="btnFilterBooksFront" value="front-end">FRONT-END BOOKS</button>
+      </li>
+      <li><button class="btn btn-back" href="#" id="btnFilterBooksBack" value="back-end">BACK-END BOOKS</button>
+      </li>
+      <li><button class="btn btn-data" href="#" id="btnFilterBooksDados" value="dados">DATA BOOKS</button></li>
+      <li><button class="btn btn-available" href="#" id="btnAvailableBooks" value="available">AVAILABLE BOOKS</button></li>
+      <li><button class="btn btn-sort" href="#" id="btnSortByPrice">ORDER BY PRICE</button></li>
+    </ul>
+  </nav>
+  <section class="books wrap" id="books">
+  </section>
+  <section id="total-amount-books-available">
+    <div class="books-available">
+      <p>All books available for R$ <span id="value">299,00</span></p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>Alura - Immerse yourself in technology</p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
